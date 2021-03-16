@@ -20,7 +20,7 @@ public class Task1 {
         int avarageArithmetic = sum/array.length;
         System.out.println(avarageArithmetic);
 
-        // Находим среднее геометрическое
+        // Находим среднее геометрическое. Число будет равняться 0, так как при перемножении, мы получаем слишком большое число.
         long multiplySum = 1;
         for(int i = 0; i < array.length; i++) {
             multiplySum = multiplySum * array[i];
